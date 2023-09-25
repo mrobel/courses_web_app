@@ -15,7 +15,6 @@ pipeline {
         stage('Maven Build') {
             steps {
                 echo "Build Project"
-                sh "mvn clean package"
             }
         }
     }
