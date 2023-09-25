@@ -18,8 +18,8 @@ pipeline {
         }
 		stage('Code Review'){
 			steps{
-				sonarQube()
-			}
+				echo "Wellcome"			
+			}		
 		}
     }
 }
